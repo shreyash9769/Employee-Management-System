@@ -87,19 +87,3 @@ public class AddEmployee extends JavaOop implements ActionListener {
 //        AddEmployee addEmployee=new AddEmployee();
 //    }
 }
-//        l2=new JLabel("Enter Details");
-//                label(l2,420,30,500,80,Font.BOLD,60);
-//        l2.setBounds(420,30,500,80);
-//        l2.setFont(new Font("serif",Font.BOLD,60));
-//        l2.setForeground(Color.black);
-//                l1.add(l2);
-//        t1=new JTextField();
-//        t1.setBounds(300,140,230,40);
-//        l1.add(t1);
-//        b1=new JButton("Enter");
-//        b1.setBounds(380,500,150,50);
-//        b1.setFont(new Font("serif",Font.PLAIN,25));
-//        b1.setBackground(Color.BLACK);
-//        b1.setForeground(Color.WHITE);
-//        b1.addActionListener(this);//this is the mistake i made when i was clicking on the enter button nothing was happening
-//        l1.add(b1);                   //because i forgot to write addactionlistner statement this i can mention in challenges
