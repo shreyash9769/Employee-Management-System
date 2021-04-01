@@ -1,4 +1,4 @@
-package com.academy;
+//Your package
 
 import javax.swing.*;
 import java.awt.*;
@@ -55,7 +55,7 @@ public class Login implements ActionListener {
         if(actionEvent.getSource()==b1) {
             try {
                 Connect connect = new Connect();
-                String s1 = t1.getText();//String representation of text entered;
+                String s1 = t1.getText();
                 String s2 = t2.getText();
                 String sql1 = "select * from login where username='" + s1 + "' and password='" + s2 + "'";
                 ResultSet rs1 = connect.st.executeQuery(sql1);
