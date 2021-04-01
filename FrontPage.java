@@ -1,4 +1,4 @@
-package com.academy;
+//Your package
 
 import javax.swing.*;
 import java.awt.*;
@@ -14,8 +14,8 @@ public class FrontPage implements ActionListener {
         j.setBackground(Color.red);
         j.setLayout(null);
 
-        ImageIcon i1=new ImageIcon(ClassLoader.getSystemResource("com/academy/icons/addEmp.jpg"));//to get img displayed on jframe
-        Image image=i1.getImage().getScaledInstance(960,689,Image.SCALE_DEFAULT);//image icon is converted to image and size is set
+        ImageIcon i1=new ImageIcon(ClassLoader.getSystemResource("Add path of your img here"));
+        Image image=i1.getImage().getScaledInstance(960,689,Image.SCALE_DEFAULT);
         ImageIcon i2=new ImageIcon(image);
         JLabel l1=new JLabel(i2);
         l1.setBounds(0,100,1360,550);
@@ -25,10 +25,10 @@ public class FrontPage implements ActionListener {
         button.setBackground(Color.BLACK);
         button.setForeground(Color.WHITE);
         button.setBounds(500,650,300,50);
-        button.addActionListener(this);//when we click on the button action must be performed so we hv to add action listener on the button
+        button.addActionListener(this);
 
         id=new JLabel();
-        id.setBounds(0,0,1360,750);//bounds are same as image bcoz we want the button on the image
+        id.setBounds(0,0,1360,750);
         id.setLayout(null);
         id.add(button);
 
@@ -45,9 +45,9 @@ public class FrontPage implements ActionListener {
     }
 
     @Override
-    public void actionPerformed(ActionEvent actionEvent) { //method to tell what action should be performed
-        if(actionEvent.getSource()==button){ //if we click on the button which is equal to button then perform foll
-            j.setVisible(false);//to hide the main frame
+    public void actionPerformed(ActionEvent actionEvent) { 
+        if(actionEvent.getSource()==button){ 
+            j.setVisible(false);
             new Login();
         }
     }
