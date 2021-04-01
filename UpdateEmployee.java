@@ -1,4 +1,4 @@
-package com.academy;
+//Your package
 
 import java.awt.event.*;
 import java.awt.*;
@@ -24,7 +24,7 @@ public class UpdateEmployee extends JavaOop implements ActionListener {
         id15=new JLabel();
         id15.setBounds(0,0,1150,700);
         id15.setLayout(null);
-        ImageIcon img=new ImageIcon(ClassLoader.getSystemResource("com/academy/icons/addE.jpg"));
+        ImageIcon img=new ImageIcon(ClassLoader.getSystemResource("Add path of your img here"));
         Image image=img.getImage().getScaledInstance(1150,700,Image.SCALE_DEFAULT);
         ImageIcon i2=new ImageIcon(image);
         id15.setIcon(i2);
