@@ -1,4 +1,4 @@
-package com.academy;
+//Your package
 
 import java.awt.event.*;
 import javax.swing.*;
