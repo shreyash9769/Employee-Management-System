@@ -1,4 +1,4 @@
-package com.academy;
+//Your package;
 
 import javax.swing.*;
 import java.awt.*;
@@ -17,7 +17,7 @@ public class Details extends JavaOop implements ActionListener {
         l1=new JLabel();
         l1.setBounds(0,0,640,302);
         l1.setLayout(null);
-        ImageIcon i1=new ImageIcon(ClassLoader.getSystemResource("com/academy/icons/empDet.jpg"));
+        ImageIcon i1=new ImageIcon(ClassLoader.getSystemResource("Add path of your img here"));
         l1.setIcon(i1);
         f.add(l1);
 
@@ -52,7 +52,6 @@ public class Details extends JavaOop implements ActionListener {
         if(actionEvent.getSource()==b3){
             f.setVisible(false);
             new SearchEmployee();
-            //new UpdateEmployee("");
         }
         if(actionEvent.getSource()==b4){
             f.setVisible(false);
@@ -60,7 +59,6 @@ public class Details extends JavaOop implements ActionListener {
         }
         if(actionEvent.getSource()==b5){
             f.setVisible(false);
-            //det=1;
         }
     }
 //    public static void main(String[] args){
