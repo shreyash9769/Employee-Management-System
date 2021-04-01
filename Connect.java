@@ -1,4 +1,4 @@
-package com.academy;
+//Your package;
 
 import java.sql.*;
 
@@ -8,7 +8,7 @@ public class Connect {
     public Connect(){
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/employee_management_system", "root", "password");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/name_of_the_database", "Enter your user here", "Enter your password here");
             st = con.createStatement();
         }
         catch (Exception e){
