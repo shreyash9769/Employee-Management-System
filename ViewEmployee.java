@@ -1,4 +1,4 @@
-package com.academy;
+//Your package
 
 import javax.swing.*;
 import java.awt.*;
@@ -18,7 +18,7 @@ public class ViewEmployee extends JavaOop implements ActionListener {
         l1=new JLabel();
         l1.setBounds(0,0,768,457);
         l1.setLayout(null);
-        ImageIcon i1=new ImageIcon(ClassLoader.getSystemResource("com/academy/icons/viewE.jpg"));
+        ImageIcon i1=new ImageIcon(ClassLoader.getSystemResource("Add path of your img here"));
         Image image=i1.getImage().getScaledInstance(768,457,Image.SCALE_DEFAULT);
         ImageIcon i2=new ImageIcon(image);
         l1.setIcon(i2);
